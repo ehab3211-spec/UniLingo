@@ -3,6 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <title>UniLingo</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #002B36;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+    .login-btn {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      background: linear-gradient(45deg, #FFD700, #FFC107);
+      color: #002B36;
+      font-weight: bold;
+    }
+    .login-btn:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <h1>UniLingo</h1>
+  <p>مرحبًا بك في التطبيق الذكي لأتمتة سير العمل داخل شبكة Pi</p>
+  <button class="login-btn" onclick="piLogin()">تسجيل الدخول عبر Pi</button>
+
+  <script>
+    function piLogin() {
+      // رابط تسجيل الدخول الافتراضي (يتم تغييره لاحقًا بعد الحصول على Client ID وRedirect URL)
+      alert("سيتم ربط تسجيل الدخول بـ Pi لاحقًا!");
+    }
+  </script>
+</body>
+</html> <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>UniLingo</title>
 </head>
 <body>
   <h1>UniLingo</h1>
